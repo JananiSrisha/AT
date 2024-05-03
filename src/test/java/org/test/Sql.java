@@ -26,7 +26,7 @@ public class Sql {
             connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:xe", "hr", "admin");
 
             // Create SQL statement
-            String sql = "SELECT * FROM student";
+            String sql = "SELECT * FROM course";
 
             // Create prepared statement
             preparedStatement = connection.prepareStatement(sql);
@@ -36,10 +36,10 @@ public class Sql {
 
             // Process the result set
             while (resultSet.next()) {
-                int sid = resultSet.getInt("sid");
-                String name = resultSet.getString("sname");
                 int cid = resultSet.getInt("cid");
-                System.out.println("SID: " + sid + ", Name: " + name + ", CID: " + cid );
+                String name = resultSet.getString("cname");
+               
+                System.out.println("SID: " + cid + ", Name: " + name);
             }
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
