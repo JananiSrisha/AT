@@ -44,6 +44,8 @@ public class Sql {
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
             System.out.println("Hello...........");
+            
+           System.out.println("new line added");
         }
 	}
 

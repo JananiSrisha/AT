@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-27T15:27:22Z" name="Default suite" finished-at="2024-04-27T15:27:23Z" duration-ms="252">
+  <suite started-at="2024-05-03T07:37:52Z" name="Default suite" finished-at="2024-05-03T07:37:55Z" duration-ms="2606">
     <groups>
     </groups>
-    <test started-at="2024-04-27T15:27:22Z" name="Default test" finished-at="2024-04-27T15:27:23Z" duration-ms="252">
+    <test started-at="2024-05-03T07:37:52Z" name="Default test" finished-at="2024-05-03T07:37:55Z" duration-ms="2606">
       <class name="org.test.Sql">
-        <test-method signature="sql()[pri:0, instance:org.test.Sql@574b560f]" started-at="2024-04-27T15:27:22Z" name="sql" finished-at="2024-04-27T15:27:23Z" duration-ms="232" status="PASS">
+        <test-method signature="sql()[pri:0, instance:org.test.Sql@343570b7]" started-at="2024-05-03T07:37:52Z" name="sql" finished-at="2024-05-03T07:37:55Z" duration-ms="2579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sql -->
